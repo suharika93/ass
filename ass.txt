@@ -1,0 +1,10 @@
+select avg(balance) from bank_details
+select * from bank_details order by balance limit 1
+select * min(balance) from bank_details 
+select *from bank_details order by balance desc limit 1
+select *from bank_details where loan = 'yes' 
+select avg(balance) from bank_details where job ='admin'
+select *from bank_details where job ='unknown' and age <= 45
+select *from bank_details where education ='primary' and job = 'unknown'
+select *from bank_details where balance <0 
+select *from bank_details where housing = 'no'
